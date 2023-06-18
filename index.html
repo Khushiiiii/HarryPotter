@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <div>
+                    <h4 class="logo">Harry Potter</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="/html/"> Dursleys</a></li> 
+                        <li><a href="/css/">Hogwarts</a></li> 
+                        <li><a href="/js/">Gryffindor</a></li> 
+                        <li><a href="/python/">Voldemort</a></li> 
+                    </ul>
+                </div>  
+            </nav>
+            <hr>
+            <main>
+                <section class="firstSection">
+                    <div class="leftSection">
+                        <span id="element" class="white"></span>
+                    </div>
+                    <div class="rightSection">
+                        <img src="hp2.jpg">
+                    </div>
+                </section>
+                <section class="secondSection">
+                    <h1>Past Experience</h1>
+                </section>
+            </main>
+           
+        </header>
+
+     
+        
+        
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+        var typed = new Typed('#element', {
+            strings: ['Happiness can be found even in the darkest of the times if one rememebers to turn on the', '"Light"...'],
+            typeSpeed: 70,
+        });
+        </script>
+    </body>
+    
+</html>
+
+
+<!--The <header> element represents a container for introductory content or a set of navigational links.
+A <header> element typically contains:
+-one or more heading elements (<h1> - <h6>)
+-logo or icon
+-authorship information
+Note: You can have several <header> elements in one HTML document. 
+    However, <header> cannot be placed within a <footer>, <address> or another <header> element.-->
+
+        
